@@ -44,8 +44,8 @@ export default function Footer() {
             </div>
             <div className=' flex-col justify-center items-center gap-2 py-5 lg:py-0'>
                 <h1 className=' text-2xl text-center text-red-600 py-3 font-bold'>Helpful links</h1>
-                <Link href={`/About`}><p className=' text-lg text-white text-center py-1'>About Us</p></Link>
-                <Link href={`/Blogs`}><p className=' text-lg text-white text-center py-1'>Blogs</p></Link>
+                <Link href={`/about`}><p className=' text-lg text-white text-center py-1'>About Us</p></Link>
+                <Link href={`/blogs`}><p className=' text-lg text-white text-center py-1'>Blogs</p></Link>
                
             </div>
             <div className=' flex-col justify-center items-center gap-2 py-5 lg:py-0'>

@@ -11,7 +11,7 @@ export default function Scroller() {
         <Link href={`https://www.commoninja.com/widgets/logo-showcase?utm_medium=Embed`}><button className=" bg-gray-600 text-white hover:bg-gray-900 hover:text-white lg:px-5 lg:py-2 p-2 rounded-xl lg:text-xl text-lg border-[1px] border-black shadow-2xl">Free logo showcase widget</button></Link>
       </div>
       <div className=' h-full flex justify-center items-center mt-12'>
-        <Link href={`/Contact`}><button className=" bg-red-600 text-white hover:bg-gray-600 hover:text-white lg:px-10 lg:py-3 p-2 rounded-xl lg:text-xl text-lg border-[1px] border-black">Book a meeting</button></Link>
+        <Link href={`/contact`}><button className=" bg-red-600 text-white hover:bg-gray-600 hover:text-white lg:px-10 lg:py-3 p-2 rounded-xl lg:text-xl text-lg border-[1px] border-black">Book a meeting</button></Link>
       </div>
     </div>
   )

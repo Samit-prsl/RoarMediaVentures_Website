@@ -22,10 +22,10 @@ export default function Navbar() {
       <Link href={`/`}><Icon/></Link>
       <div className=" h-full flex justify-center items-center gap-5">
           <Link href={`/`}><button className={isHomeRoute ? ` bg-red-600 border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-1 rounded-[4rem]`:`border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]`}>Home</button></Link>
-          <Link href={`/About`}><button className={isAboutRoute ? `bg-red-600 border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-1 rounded-[4rem]`:`border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]`}>About</button></Link>
-          <Link href={`/Servicee`}><button className={isServiceRoute ? `bg-red-600 border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-1 rounded-[4rem]`:`border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]`}>Services</button></Link>
-          <Link href={`/Blogs`}><button className={isBlogsRoute ? `bg-red-600 border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-1 rounded-[4rem]`:`border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]`}>Blog</button></Link>
-          <Link href={`/Contact`}><button className={isContactRoute ? `bg-red-600 border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-1 rounded-[4rem]`:`border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]`}>Contact Us</button></Link>
+          <Link href={`/about`}><button className={isAboutRoute ? `bg-red-600 border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-1 rounded-[4rem]`:`border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]`}>About</button></Link>
+          <Link href={`/servicee`}><button className={isServiceRoute ? `bg-red-600 border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-1 rounded-[4rem]`:`border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]`}>Services</button></Link>
+          <Link href={`/blogs`}><button className={isBlogsRoute ? `bg-red-600 border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-1 rounded-[4rem]`:`border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]`}>Blog</button></Link>
+          <Link href={`/contact`}><button className={isContactRoute ? `bg-red-600 border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-1 rounded-[4rem]`:`border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]`}>Contact Us</button></Link>
       </div>
       </div>
         <div className=' pl-5 h-20 flex justify-between items-center top-0 sticky z-10 bg-white border-b-[1px] border-black lg:hidden'>
@@ -38,10 +38,10 @@ export default function Navbar() {
                 <RxCross2 className=' text-3xl text-left cursor-pointer' onClick={()=>{Setclick(!click)}}/>
                </div>
                 <Link href={`/`}><h1 className={isHomeRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>Home</h1></Link>
-                <Link href={`/About`}><h1 className={isAboutRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>About</h1></Link>
-                <Link href={`/Servicee`}><h1 className={isServiceRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>Services</h1></Link>
-                <Link href={`/Blogs`}><h1 className={isBlogsRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>Blog</h1></Link>
-                <Link href={`/Contact`}><h1 className={isContactRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>Contact Us</h1></Link>
+                <Link href={`/about`}><h1 className={isAboutRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>About</h1></Link>
+                <Link href={`/servicee`}><h1 className={isServiceRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>Services</h1></Link>
+                <Link href={`/blogs`}><h1 className={isBlogsRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>Blog</h1></Link>
+                <Link href={`/contact`}><h1 className={isContactRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>Contact Us</h1></Link>
                 </div>
             </div>
               ):

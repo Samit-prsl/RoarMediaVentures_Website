@@ -11,7 +11,7 @@ export default function BannerInAbout() {
         <p className=' lg:text-2xl text-lg text-white text-center py-8'>Every decision we make is data driven and anchored in measurable outcomes, ensuring your success.</p>
         <h1 className=' text-center lg:text-6xl text-3xl text-red-600 py-8'>Ready to invest in growth?</h1>
         <div className=' flex justify-center items-center'>
-            <Link href={`/Contact`}><button className=" bg-red-600 text-white hover:bg-gray-600 hover:text-white px-8 py-2 rounded-xl text-xl border-[1px] border-black">Book a meeting</button></Link>
+            <Link href={`/contact`}><button className=" bg-red-600 text-white hover:bg-gray-600 hover:text-white px-8 py-2 rounded-xl text-xl border-[1px] border-black">Book a meeting</button></Link>
         </div>
     </div>
   )
