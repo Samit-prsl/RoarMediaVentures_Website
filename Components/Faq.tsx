@@ -7,7 +7,7 @@ export default function Faq() {
     const [click3,Setclick3] = useState<boolean>(false)
     const [click4,Setclick4] = useState<boolean>(false)
   return (
-    <div className=' p-8 bg-white text-black'>
+    <div className=' p-8'>
       <h1 className=' text-center lg:text-3xl text-xl text-black py-6'>Frequently asked questions</h1>
       <h3 className=' text-sky-500 py-6'>General</h3>
 

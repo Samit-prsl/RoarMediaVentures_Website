@@ -35,7 +35,7 @@ export default function Navbar() {
                 <div className=' mt-44 bg-white z-20 w-1/2 p-3'>
                 <div className=" flex-col justify-center items-center gap-5 z-10 ">
                <div className=' flex justify-end items-center py-2'>
-                <RxCross2 className=' text-3xl text-left cursor-pointer text-black' onClick={()=>{Setclick(!click)}}/>
+                <RxCross2 className=' text-3xl text-left cursor-pointer' onClick={()=>{Setclick(!click)}}/>
                </div>
                 <Link href={`/`}><h1 className={isHomeRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>Home</h1></Link>
                 <Link href={`/About`}><h1 className={isAboutRoute ? ` text-red-600 hover:bg-red-600 hover:text-white px-10 py-2`:` hover:bg-red-600 text-black hover:text-white px-10 py-2`}>About</h1></Link>

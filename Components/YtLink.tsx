@@ -6,8 +6,8 @@ export default function YtLink() {
  // const large = useMediaQuery('(min-width: 768px)')
 
   return (
-    <div className=' bg-white'>
-    <div className=' flex justify-center items-center h-full my-6 p-8 bg-white'>
+    <>
+    <div className=' flex justify-center items-center h-full my-6 p-8'>
       <iframe width="760" height='515' src="https://www.youtube.com/embed/KrRHNutZC54?si=kh2xwBMlxe9MP0MS" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
     </div>
     <h1 className=' text-center text-black lg:text-4xl text-2xl px-3 lg:px-0'>MOST OF THE <span className=' text-red-600'>BUSINESS OWNERS FACE</span> ONE OR MORE OF THESE</h1>
@@ -25,6 +25,6 @@ export default function YtLink() {
             <button className=" bg-red-600 text-white hover:bg-gray-600 hover:text-white px-8 py-2 rounded-xl text-xl border-[1px] cursor-auto border-black">No Profitability</button>
         </div>
     </div>
-    </div>
+    </>
   )
 }

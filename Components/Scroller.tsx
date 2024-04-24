@@ -3,7 +3,7 @@ import Slider from './Slider'
 import Link from 'next/link'
 export default function Scroller() {
   return (
-    <div className=' py-10 px-16 my-5 bg-white'>
+    <div className=' py-10 px-16 my-5'>
       <h1 className=' lg:text-6xl text-3xl font-bold text-center space-y-2 text-red-600'>We Work With Brands Of Various Magnitude</h1>
       <h4 className=' lg:text-3xl text-xl text-center text-black my-16'>Meet our Partners</h4>
       <Slider/>
