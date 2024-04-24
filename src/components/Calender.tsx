@@ -15,7 +15,7 @@ export default function Calender() {
 
   return (
     <div className='bg-white p-10'>
-      <h1 className='lg:text-4xl text-2xl text-red-600 text-center font-semibold py-8 lg:py-0'>LET'S TALK</h1>
+      <h1 className='lg:text-4xl text-2xl text-red-600 text-center font-semibold py-8 lg:py-0'>LET&apos;S TALK</h1>
       <div className=' py-8 lg:py-0 lg:pb-8'>
         <div className="calendly-inline-widget" data-url="https://calendly.com/samit-prsl/30min?primary_color=ff0030" style={{minWidth:'320px',height:'700px'}}></div>
       </div>
