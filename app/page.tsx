@@ -1,12 +1,29 @@
-import Image from "next/image";
 
+import Navbar from "@/Components/Navbar";
+import Video from "@/Components/Video";
+import Scroller from "@/Components/Scroller";
+import Banner from "@/Components/Banner";
+import YtLink from "@/Components/YtLink";
+import Banner2 from "@/Components/Banner2";
+import Faq from "@/Components/Faq";
+import Footer from "@/Components/Footer";
+import YtLinkPhone from "@/Components/YtLinkPhone";
 export default function Home() {
   return (
     <>
-    <div className="bg-green-600 flex justify-center items-center h-screen">
-      <p className="text-3xl text-red-600">Test</p>
+    <Navbar/>
+    <Video/>
+    <Scroller/>
+    <Banner/>
+    <div className=" lg:block hidden">
+    <YtLink/>
     </div>
+    <div className=" lg:hidden block">
+    <YtLinkPhone/>
+    </div>
+    <Banner2/>
+    <Faq/>
+    <Footer/>
     </>
-    
   );
 }
