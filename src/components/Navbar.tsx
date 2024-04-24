@@ -11,10 +11,10 @@ export default function Navbar() {
   //const large = useMediaQuery('(min-width: 768px)')
   const route = usePathname()
   const isHomeRoute  = route === '/'
-  const isAboutRoute = route === '/About'
-  const isServiceRoute = route === '/Servicee'
-  const isBlogsRoute = route === '/Blogs'
-  const isContactRoute = route ==='/Contact'
+  const isAboutRoute = route === '/about'
+  const isServiceRoute = route === '/servicee'
+  const isBlogsRoute = route === '/blogs'
+  const isContactRoute = route ==='/contact'
   const [click,Setclick] = useState<boolean>(false)
   return (
     <>
