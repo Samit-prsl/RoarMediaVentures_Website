@@ -7,7 +7,7 @@ export default function Services() {
       <div className=' h-full lg:flex lg:justify-between lg:items-center gap-5 py-8'>
             <div className=' flex-col justify-center items-center gap-5'>
                 <h1 className=' text-xl text-red-600 py-4 font-bold'>Promotion</h1>
-                <p className=' text-lg py-6'>At Roar Media Ventures we understand the power of promotion as a catalyst for success. Whether you&apos;re launching a new product, expanding your market reach, or simply aiming to boost your brand visibility, our team of experts is committed to delivering results that exceed expectations.</p>
+                <p className=' text-lg py-6'>At Roar Media Ventures we understand the power of promotion as a catalyst for success. Whether you're launching a new product, expanding your market reach, or simply aiming to boost your brand visibility, our team of experts is committed to delivering results that exceed expectations.</p>
                 <h1 className=' text-lg text-red-600 py-1'>Promotion we offer</h1>
                 <ul className='text-md list-disc '>
                     <li>Advertisement</li>
@@ -35,7 +35,7 @@ export default function Services() {
       <div className=' h-full lg:flex lg:justify-between lg:items-center gap-10 py-8'>
             <div className=' flex-col justify-center items-center gap-5'>
                 <h1 className=' text-xl text-red-600 py-4 font-bold'>Digital Marketing</h1>
-                <p className=' text-lg py-6'>Embark on a transformative digital journey with Roar Media Ventures, where innovation meets strategy, and your brand&apos;s success is our ultimate goal.  Our agency specializes in SEO, PPC advertising, social media marketing, content marketing, and email marketing. With our SEO services, we&apos;ll boost your website&apos;s visibility on search engines. Our PPC advertising campaigns will drive targeted traffic to your site, increasing conversions. Engage with your audience on social media with our expertly crafted content. Become an industry thought leader with our content marketing strategies. Stay connected with your audience through personalized email campaigns. Contact us today to learn how we can help you achieve your business goals!</p>
+                <p className=' text-lg py-6'>Embark on a transformative digital journey with Roar Media Ventures, where innovation meets strategy, and your brand's success is our ultimate goal.  Our agency specializes in SEO, PPC advertising, social media marketing, content marketing, and email marketing. With our SEO services, we'll boost your website's visibility on search engines. Our PPC advertising campaigns will drive targeted traffic to your site, increasing conversions. Engage with your audience on social media with our expertly crafted content. Become an industry thought leader with our content marketing strategies. Stay connected with your audience through personalized email campaigns. Contact us today to learn how we can help you achieve your business goals!</p>
                 <h1 className=' text-lg text-red-600 py-1'>Digital Marketing we offer</h1>
                 <ul className='text-md list-disc '>
                     <li>Search Engine Optimization (SEO)</li>
@@ -50,7 +50,7 @@ export default function Services() {
             <Image src={`https://plus.unsplash.com/premium_photo-1681487977919-306ef7194d98?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNjYWxhYmlsaXR5fGVufDB8fDB8fHww`} alt='...' height={500} width={400} className=' h-[360px] w-[400px] lg:w-full object-cover py-5 lg:py-0'/>
             <div className=' flex-col justify-center items-center gap-5'>
                 <h1 className=' text-xl text-red-600 py-4 font-bold text-right'>Social Media Marketing</h1>
-                <p className=' text-lg py-6 text-right'>Are you looking to elevate your brand&apos;s online presence? Our social media marketing agency specializes in creating tailored strategies to help businesses like yours thrive in the digital world. With a team of experienced professionals, we offer a range of services designed to boost your brand&apos;s visibility and engagement across various social media platforms. </p>
+                <p className=' text-lg py-6 text-right'>Are you looking to elevate your brand's online presence? Our social media marketing agency specializes in creating tailored strategies to help businesses like yours thrive in the digital world. With a team of experienced professionals, we offer a range of services designed to boost your brand's visibility and engagement across various social media platforms. </p>
                 {/* <h1 className=' text-lg text-red-600 py-1'>Events we offer</h1>
                 <ul className='text-md list-disc '>
                     <li>Corporate Events</li>
@@ -63,7 +63,7 @@ export default function Services() {
       <div className=' h-full lg:flex lg:justify-between lg:items-center gap-5 py-8'>
             <div className=' flex-col justify-center items-center gap-5'>
                 <h1 className=' text-xl text-red-600 py-4 font-bold'>Performance Marketing</h1>
-                <p className=' text-lg py-6'>Drive performance and maximize your ROI with our performance marketing solutions. Whether you&apos;re looking to advertise on Google, optimize your meta ads, or expand your reach on marketplace platforms, our agency has the expertise to help you succeed. With our Google Ads services, we&apos;ll create targeted campaigns that drive qualified traffic to your website. Our meta ad optimization strategies will ensure that your ads stand out and attract clicks. Additionally, we&apos;ll help you leverage marketplace platforms like Amazon, Flipkart and more to reach a wider audience and drive more sales. Contact us today to learn more about how we can elevate your performance marketing efforts!</p>
+                <p className=' text-lg py-6'>Drive performance and maximize your ROI with our performance marketing solutions. Whether you're looking to advertise on Google, optimize your meta ads, or expand your reach on marketplace platforms, our agency has the expertise to help you succeed. With our Google Ads services, we'll create targeted campaigns that drive qualified traffic to your website. Our meta ad optimization strategies will ensure that your ads stand out and attract clicks. Additionally, we'll help you leverage marketplace platforms like Amazon, Flipkart and more to reach a wider audience and drive more sales. Contact us today to learn more about how we can elevate your performance marketing efforts!</p>
                 {/* <h1 className=' text-lg text-red-600 py-1'>Promotion we offer</h1>
                 <ul className='text-md list-disc '>
                     <li>Advertisement</li>
@@ -91,7 +91,7 @@ export default function Services() {
       <div className=' h-full lg:flex lg:justify-between lg:items-center gap-5 py-8'>
             <div className=' flex-col justify-center items-center gap-5'>
                 <h1 className=' text-xl text-red-600 py-4 font-bold'>WhatsApp Automation Marketing</h1>
-                <p className=' text-lg py-6'>Drive performance and maximize your ROI with our performance marketing solutions. Whether you&apos;re looking to advertise on Google, optimize your meta ads, or expand your reach on marketplace platforms, our agency has the expertise to help you succeed. With our Google Ads services, we&apos;ll create targeted campaigns that drive qualified traffic to your website. Our meta ad optimization strategies will ensure that your ads stand out and attract clicks. Additionally, we&apos;ll help you leverage marketplace platforms like Amazon and eBay to reach a wider audience and drive more sales. Contact us today to learn more about how we can elevate your performance marketing efforts!</p>
+                <p className=' text-lg py-6'>Drive performance and maximize your ROI with our performance marketing solutions. Whether you're looking to advertise on Google, optimize your meta ads, or expand your reach on marketplace platforms, our agency has the expertise to help you succeed. With our Google Ads services, we'll create targeted campaigns that drive qualified traffic to your website. Our meta ad optimization strategies will ensure that your ads stand out and attract clicks. Additionally, we'll help you leverage marketplace platforms like Amazon and eBay to reach a wider audience and drive more sales. Contact us today to learn more about how we can elevate your performance marketing efforts!</p>
                 {/* <h1 className=' text-lg text-red-600 py-1'>Promotion we offer</h1>
                 <ul className='text-md list-disc '>
                     <li>Advertisement</li>

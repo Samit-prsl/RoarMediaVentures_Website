@@ -23,7 +23,7 @@ export default function Banner2() {
             <Image src={`https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600`} alt='...'
             height={400} width={300}/>
             <h1 className=' text-3xl text-red-600 text-center'>STEP 3: Implement the Strategies and… Boom💥</h1>
-            <h3 className=' text-xl text-white text-center'>At the end of the call, you will walk away with a proven strategy that&apos;s custom-made to help you grow your business</h3>
+            <h3 className=' text-xl text-white text-center'>At the end of the call, you will walk away with a proven strategy that's custom-made to help you grow your business</h3>
         </div>
       </div>
       <div className=' h-full flex justify-center items-center'>
