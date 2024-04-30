@@ -1,28 +1,29 @@
 "use client"
 import React,{useEffect, useRef} from 'react'
 
-export default function Slider() {
+export default function Slider({ limit }: { limit: number }) {
     const array = [
-        "https://plus.unsplash.com/premium_photo-1684341008285-3da3c563143e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aWNvbnN8ZW58MHx8MHx8fDA%3D","https://plus.unsplash.com/premium_photo-1684341008404-af4df3d54615?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3wyfHx8ZW58MHx8fHx8","https://plus.unsplash.com/premium_photo-1684341008716-8e4b771eb9e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3w2fHx8ZW58MHx8fHx8","https://plus.unsplash.com/premium_photo-1684341008757-3b456034e943?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3wzfHx8ZW58MHx8fHx8",
-        "https://plus.unsplash.com/premium_photo-1684341008385-31d2eb4f3afe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3w1fHx8ZW58MHx8fHx8",
-        "https://images.unsplash.com/photo-1563302111-eab4b145e6c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbXBhbnklMjBpY29uc3xlbnwwfHwwfHx8MA%3D%3D","https://images.unsplash.com/photo-1601592935678-406968278b1e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8","https://images.unsplash.com/photo-1590102426319-c7526718cd70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8"
+        "https://uploads.commoninja.com/logo_showcase/1711101400261_spice_route_legal_logo.jfif","https://uploads.commoninja.com/logo_showcase/1711101349460_Beige_and_White_Be_Yourself_Square_Pillow.png","https://uploads.commoninja.com/logo_showcase/1711101542545_Beige_and_White_Be_Yourself_Square_Pillow_1.png","https://uploads.commoninja.com/logo_showcase/1711100975183_ITT9hT5B_400x400.jpg",
+        "https://uploads.commoninja.com/logo_showcase/1711101086410_278030740_371860981615650_8035331850562520420_n.jpg",
+        // "https://images.unsplash.com/photo-1563302111-eab4b145e6c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbXBhbnklMjBpY29uc3xlbnwwfHwwfHx8MA%3D%3D","https://images.unsplash.com/photo-1601592935678-406968278b1e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8","https://images.unsplash.com/photo-1590102426319-c7526718cd70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8"
     ]
     const containerRef = useRef(null)
     useEffect(()=>{
         const container:any = containerRef.current
         const scroll = () =>{
             if(container) {
-                const distance = 2
+                const distance = 1
                 container.scrollLeft += distance
-                if (container.scrollLeft >= 2627) {
+                if (container.scrollLeft >= limit) {
                     container.scrollLeft = 0
                 }
-                //console.log(container.scrollLeft);   
+                console.log(container.scrollLeft); 
+                requestAnimationFrame(scroll)  
             }
         }
-        const interval = setInterval(scroll,10)
+        requestAnimationFrame(scroll)
         return ()=>{
-            clearInterval(interval)
+            
         }
     },[])
   return (

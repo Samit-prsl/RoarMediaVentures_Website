@@ -5,7 +5,7 @@ import React from 'react'
 export default function Icon() {
     //const large = useMediaQuery('(min-width: 768px)')
   return (
-    <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 175 82.003" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 82.003" height="62" width='140' data-type="color" role="presentation" aria-hidden="true">
+    <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 175 82.003" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 82.003" height="62" width='100' data-type="color" role="presentation" aria-hidden="true">
     <g>
         <g clipPath="url(#78295fbd-0bc9-41b1-b551-0d24b17678de_comp-lixgbs69)">
             <path fill="#58595B" d="m28.966 81.892-1.463-1.728h-.7v1.728h-.85v-5.06h2.054a2.02 2.02 0 0 1 .931.206c.261.13.479.331.627.582.152.263.23.563.224.867a1.584 1.584 0 0 1-1.304 1.626l1.543 1.779h-1.062Zm-.285-4.049c-.17-.163-.409-.245-.717-.245h-1.16v1.812h1.167c.303 0 .54-.078.71-.235a.84.84 0 0 0 .256-.654.892.892 0 0 0-.256-.678Z" data-color="1"></path>

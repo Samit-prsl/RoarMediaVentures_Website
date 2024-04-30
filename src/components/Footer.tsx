@@ -8,7 +8,7 @@ import { MdOutlineEmail } from "react-icons/md";
 export default function Footer() {
   return (
     <div className=' bg-black h-full pt-5'>
-    <div className=' bg-black h-full px-8 lg:flex lg:justify-center lg:items-center lg:gap-24'>
+    <div className=' bg-black h-full px-8 lg:flex lg:justify-center lg:items-center lg:gap-10'>
         <div className=' flex-col justify-center items-start gap-5 pt-5 lg:pt-0'>
             <Icon/>
             <h1 className=' lg:text-2xl text-xl  text-white py-3'>Your Digital & Media Marketing Partner : <span className='text-red-600'>Keep Roaring</span></h1>
@@ -44,8 +44,8 @@ export default function Footer() {
             </div>
             <div className=' flex-col justify-center items-center gap-2 py-5 lg:py-0'>
                 <h1 className=' text-2xl text-center text-red-600 py-3 font-bold'>Helpful links</h1>
-                <Link href={`/about`}><p className=' text-lg text-white text-center py-1'>About Us</p></Link>
-                <Link href={`/blogs`}><p className=' text-lg text-white text-center py-1'>Blogs</p></Link>
+                <Link href={`/about`}><p className=' text-lg text-white text-center py-1 hover:text-red-600'>About Us</p></Link>
+                <Link href={`/blogs`}><p className=' text-lg text-white text-center py-1 hover:text-red-600'>Blogs</p></Link>
                
             </div>
             <div className=' flex-col justify-center items-center gap-2 py-5 lg:py-0'>
@@ -59,10 +59,10 @@ export default function Footer() {
     <h1 className=' text-lg text-center text-red-600 py-8'>Follow us on</h1>
     <div className=' flex justify-center items-center border-b-[1px] border-sky-600 pb-5'>
             <div className=' lg:w-1/4 w-full flex justify-center items-center h-full text-white gap-10'>
-                <FaFacebookF className=' text-2xl'/>
-                <FaInstagram className=' text-2xl'/>
-                <FaLinkedinIn className=' text-2xl'/>
-                <FaYoutube className=' text-2xl'/>
+                <Link href={`https://www.facebook.com/roarmediaventures/`} target="_blank"><FaFacebookF className=' text-2xl hover:text-red-600'/></Link>
+                <Link href={`https://www.instagram.com/rmvsocial/`} target="_blank"><FaInstagram className=' text-2xl hover:text-red-600'/></Link>
+                <Link href={`https://www.linkedin.com/company/roar-media-ventures/`} target="_blank"><FaLinkedinIn className=' text-2xl hover:text-red-600'/></Link>
+                <Link href={`https://www.youtube.com/@rmv-yt`} target="_blank"><FaYoutube className=' text-2xl hover:text-red-600'/></Link>
             </div>
     </div>
     <h1 className=' lg:text-lg text-sm text-center text-white py-5 px-5 lg:px-0'>&copy; All rights reserved to Roar Media Ventures | 2024 | Created by Roar Media Ventures</h1>
