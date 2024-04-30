@@ -22,7 +22,7 @@ export default function Blog() {
                 </div>
             </div>
             <h1 className=' text-xl font-bold py-4 hover:text-blue-500 cursor-pointer'>Importance of Social media Strategies in Digital Sales for a brand in 2024</h1>
-            <p className=' text-lg py-1 hover:text-blue-500 cursor-pointer'>In today's digital age, social media has become an integral part of the modern customer journey. As consumers spend more time on social...</p>
+            <p className=' text-lg py-1 hover:text-blue-500 cursor-pointer'>In today&apos;s digital age, social media has become an integral part of the modern customer journey. As consumers spend more time on social...</p>
         </div>
     </div>
     </>
