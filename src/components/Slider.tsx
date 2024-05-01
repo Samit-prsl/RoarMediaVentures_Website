@@ -17,7 +17,7 @@ export default function Slider({ limit }: { limit: number }) {
                 if (container.scrollLeft >= limit) {
                     container.scrollLeft = 0
                 }
-                console.log(container.scrollLeft); 
+                //console.log(container.scrollLeft); 
                 requestAnimationFrame(scroll)  
             }
         }

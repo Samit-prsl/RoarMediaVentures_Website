@@ -10,7 +10,7 @@ export default function Scroller() {
           <Slider limit={412}/>
         </div>
         <div className=' lg:hidden block'>
-          <Slider limit={1080}/>
+          <Slider limit={980}/>
         </div>
       <div className=' h-full flex justify-center items-center my-12'>
         <Link href={`https://www.commoninja.com/widgets/logo-showcase?utm_medium=Embed`}><button className=" bg-gray-300 text-black hover:bg-gray-900 hover:text-white lg:px-5 lg:py-2 p-2 rounded-xl lg:text-xl text-lg border-[1px] border-black shadow-2xl w-[75vw] lg:w-full">Free logo showcase widget</button></Link>
