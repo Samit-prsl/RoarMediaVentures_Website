@@ -1,7 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 export default function Banner2() {
+  const leftVariants = {
+    hidden: { opacity: 0, x: -100, y: 0 },
+    enter: { opacity: 1, x: 0, y: 0 },
+    exit: { opacity: 1, x: -100, y: 0 },
+ };
+  const rightVariants = {
+    hidden: { opacity: 0, x: 100, y: 0 },
+    enter: { opacity: 1, x: 0, y: 0 },
+    exit: { opacity: 0, x: 100, y: 0 },
+ };
   return (
     <div className=' bg-black p-10'>
       <h1 className=' lg:text-6xl text-3xl text-white text-center'>GROW YOUR BUSINESS IN</h1>
@@ -27,7 +38,14 @@ export default function Banner2() {
         </div>
       </div>
       <div className=' h-full flex justify-center items-center'>
-        <Link href={`/contact`}><button className=" bg-red-600 text-white hover:bg-gray-600 hover:text-white px-8 py-2 rounded-xl text-xl border-[1px] cursor-pointer border-black">Get a free site audit</button></Link>
+        <Link href={`/contact`}>
+          <motion.button
+          variants={rightVariants}
+          initial={rightVariants.hidden}
+          whileInView={leftVariants.enter}
+          transition={{ type: 'spring', stiffness: 50 }}
+          exit={leftVariants.exit}  
+        className=" bg-red-600 text-white hover:bg-gray-600 hover:text-white px-8 py-2 rounded-xl text-xl border-[1px] cursor-pointer border-black">Get a free site audit</motion.button></Link>
       </div>
     </div>
   )

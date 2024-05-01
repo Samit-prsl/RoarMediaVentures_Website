@@ -1,7 +1,19 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 export default function Services() {
+    const leftVariants = {
+        hidden: { opacity: 0, x: -100, y: 0 },
+        enter: { opacity: 1, x: 0, y: 0 },
+        exit: { opacity: 1, x: -100, y: 0 },
+     };
+      const rightVariants = {
+        hidden: { opacity: 0, x: 100, y: 0 },
+        enter: { opacity: 1, x: 0, y: 0 },
+        exit: { opacity: 0, x: 100, y: 0 },
+     };
   return (
     <div className=' lg:px-24 px-12 py-8'>
         <h1 className=' lg:text-3xl text-2xl text-black text-center py-8'>SERVICES WE <span className=' text-red-600'>OFFER</span></h1>
@@ -163,7 +175,13 @@ export default function Services() {
             <h1 className=' lg:text-3xl text-xl text-red-600 text-center'>AND MANY MORE....</h1>
       </div>
       <div className=' h-full flex justify-center items-center py-5'>
-            <Link href={`/contact`}><button className='border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]'>Schedule a Call</button></Link>
+            <Link href={`/contact`}><motion.button
+            variants={rightVariants}
+            initial={rightVariants.hidden}
+            whileInView={leftVariants.enter}
+            transition={{ type: 'spring', stiffness: 50 }}
+            exit={leftVariants.exit} 
+            className='border-[1px] border-red-600 hover:bg-red-600 text-black hover:text-white px-10 py-2 rounded-[4rem]'>Schedule a Call</motion.button></Link>
       </div>
     </div>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import {motion} from 'framer-motion'
 export default function Video() {
   return (
     <div className='relative '>
@@ -9,7 +10,8 @@ export default function Video() {
         {/* <video width="320" height="240" controls preload="none">
           <source src='\videormv.mp4' type='video/mp4'/>
         </video> */}
-        <Link href={`/Contact`}><button className="absolute bottom-5 transform -translate-x-1/2 left-1/2 bg-red-600 text-white hover:bg-gray-600 hover:text-white lg:px-10 lg:py-3 p-2 rounded-xl lg:text-xl text-lg border-[1px] border-black">Book a meeting</button></Link>
+        <Link href={`/contact`}>
+          <button className="absolute bottom-5 transform -translate-x-1/2 left-1/2 bg-red-600 text-white hover:bg-gray-600 hover:text-white lg:px-10 lg:py-3 p-2 rounded-xl lg:text-xl text-lg border-[1px] border-black">Book a meeting</button></Link>
     </div>
   )
 }
